@@ -42,6 +42,7 @@ function convert() {
         let resultValue = (inputValue - 32) * 5/9
         $.querySelector(".result-value").innerHTML = resultValue.toFixed(2) + "°C"
         $.querySelector(".result-value").style.display = "flex"
+        $.querySelector(".result-value").style.fontSize = "3rem"
         $.querySelector(".result-container").style.height = "8rem"
         $.querySelector(".result-container").style.margin = "1rem 0"
         $.querySelector(".result-container").style.boxShadow = "20px 20px 50px rgba(0, 0, 0, 0.5)"
@@ -91,4 +92,5 @@ function reverseInput() {
 
 
 // The key is performance
+
 // XrfanX
